@@ -1,0 +1,42 @@
+name: Playwright Test
+on: 
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [main,master]
+  schedule: 
+  - cron:
+jobs:
+  test:
+    timeout-minutes: 3
+    name: Run Playwright test
+    run-on: ubuntu-latest
+  steps:
+  - name: Checkout Repository
+    uses: actions/checkout@v4
+
+  - name: setup node js
+    uses: actions/setup-node@v4
+    with:
+      node-version: 18
+  
+  - name: Install dependencies
+    run: npm install
+  
+  - name: install browsers
+    run: npx playwright install --with-deps
+
+  - name: run test
+    run: npx playwright test
+
+  - name: Report
+    run:
+      if: always()
+      uses: actions/upload-artifacts@v4
+      with: 
+        name: test report
+        path: playwright-report/
+        retention-days: 30
+
+
+
