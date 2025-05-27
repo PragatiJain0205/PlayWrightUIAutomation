@@ -55,3 +55,7 @@ await page.locator('#input').setInputFiles(['file1','file2'])
 await page.screenshot({path:'path of file'})
     })
 })
+await expect(page.getByRole('button', { name: 'Shop by Category' })).toHaveAttribute('aria-expanded', 'false');
+await expect(page.getByText('This is a dummy website for Web Automation Testing')).toBeVisible();
+await expect(page.getByAltText('Iphone 11 pro max')).toBeVisible();
+await expect(page.getByPlaceholder('E-Mail Address')).toBeEditable();

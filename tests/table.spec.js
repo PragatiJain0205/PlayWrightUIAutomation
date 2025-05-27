@@ -11,7 +11,6 @@ test.describe("Test Table", async() =>{
         //no of column
         const column= await table.locator('tbody tr th')
         console.log("Nmber of column : ", await column.count())
-        console.log(row)
         //Get value from column
         const matchedRow = await row.filter({
             has: page.locator('td'),

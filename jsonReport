@@ -1,0 +1,1117 @@
+{
+  "config": {
+    "configFile": "/Users/metro/Documents/Learning/playwright-javascript/playwright.config.js",
+    "rootDir": "/Users/metro/Documents/Learning/playwright-javascript/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./jsonReport"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "on-failure"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/metro/Documents/Learning/playwright-javascript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/metro/Documents/Learning/playwright-javascript/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/metro/Documents/Learning/playwright-javascript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/metro/Documents/Learning/playwright-javascript/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/metro/Documents/Learning/playwright-javascript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/metro/Documents/Learning/playwright-javascript/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.47.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "dropdown.spec.js",
+      "file": "dropdown.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 9154,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m100\u001b[39m\n"
+                    },
+                    {
+                      "text": "Item 1\n"
+                    },
+                    {
+                      "text": "Item 2\n"
+                    },
+                    {
+                      "text": "Item 3\n"
+                    },
+                    {
+                      "text": "Item 4\n"
+                    },
+                    {
+                      "text": "Item 5\n"
+                    },
+                    {
+                      "text": "Item 6\n"
+                    },
+                    {
+                      "text": "Item 7\n"
+                    },
+                    {
+                      "text": "Item 8\n"
+                    },
+                    {
+                      "text": "Item 9\n"
+                    },
+                    {
+                      "text": "Item 10\n"
+                    },
+                    {
+                      "text": "Item 11\n"
+                    },
+                    {
+                      "text": "Item 12\n"
+                    },
+                    {
+                      "text": "Item 13\n"
+                    },
+                    {
+                      "text": "Item 14\n"
+                    },
+                    {
+                      "text": "Item 15\n"
+                    },
+                    {
+                      "text": "Item 16\n"
+                    },
+                    {
+                      "text": "Item 17\n"
+                    },
+                    {
+                      "text": "Item 18\n"
+                    },
+                    {
+                      "text": "Item 19\n"
+                    },
+                    {
+                      "text": "Item 20\n"
+                    },
+                    {
+                      "text": "Item 21\n"
+                    },
+                    {
+                      "text": "Item 22\n"
+                    },
+                    {
+                      "text": "Item 23\n"
+                    },
+                    {
+                      "text": "Item 24\n"
+                    },
+                    {
+                      "text": "Item 25\n"
+                    },
+                    {
+                      "text": "Item 26\n"
+                    },
+                    {
+                      "text": "Item 27\n"
+                    },
+                    {
+                      "text": "Item 28\n"
+                    },
+                    {
+                      "text": "Item 29\n"
+                    },
+                    {
+                      "text": "Item 30\n"
+                    },
+                    {
+                      "text": "Item 31\n"
+                    },
+                    {
+                      "text": "Item 32\n"
+                    },
+                    {
+                      "text": "Item 33\n"
+                    },
+                    {
+                      "text": "Item 34\n"
+                    },
+                    {
+                      "text": "Item 35\n"
+                    },
+                    {
+                      "text": "Item 36\n"
+                    },
+                    {
+                      "text": "Item 37\n"
+                    },
+                    {
+                      "text": "Item 38\n"
+                    },
+                    {
+                      "text": "Item 39\n"
+                    },
+                    {
+                      "text": "Item 40\n"
+                    },
+                    {
+                      "text": "Item 41\n"
+                    },
+                    {
+                      "text": "Item 42\n"
+                    },
+                    {
+                      "text": "Item 43\n"
+                    },
+                    {
+                      "text": "Item 44\n"
+                    },
+                    {
+                      "text": "Item 45\n"
+                    },
+                    {
+                      "text": "Item 46\n"
+                    },
+                    {
+                      "text": "Item 47\n"
+                    },
+                    {
+                      "text": "Item 48\n"
+                    },
+                    {
+                      "text": "Item 49\n"
+                    },
+                    {
+                      "text": "Item 50\n"
+                    },
+                    {
+                      "text": "Item 51\n"
+                    },
+                    {
+                      "text": "Item 52\n"
+                    },
+                    {
+                      "text": "Item 53\n"
+                    },
+                    {
+                      "text": "Item 54\n"
+                    },
+                    {
+                      "text": "Item 55\n"
+                    },
+                    {
+                      "text": "Item 56\n"
+                    },
+                    {
+                      "text": "Item 57\n"
+                    },
+                    {
+                      "text": "Item 58\n"
+                    },
+                    {
+                      "text": "Item 59\n"
+                    },
+                    {
+                      "text": "Item 60\n"
+                    },
+                    {
+                      "text": "Item 61\n"
+                    },
+                    {
+                      "text": "Item 62\n"
+                    },
+                    {
+                      "text": "Item 63\n"
+                    },
+                    {
+                      "text": "Item 64\n"
+                    },
+                    {
+                      "text": "Item 65\n"
+                    },
+                    {
+                      "text": "Item 66\n"
+                    },
+                    {
+                      "text": "Item 67\n"
+                    },
+                    {
+                      "text": "Item 68\n"
+                    },
+                    {
+                      "text": "Item 69\n"
+                    },
+                    {
+                      "text": "Item 70\n"
+                    },
+                    {
+                      "text": "Item 71\n"
+                    },
+                    {
+                      "text": "Item 72\n"
+                    },
+                    {
+                      "text": "Item 73\n"
+                    },
+                    {
+                      "text": "Item 74\n"
+                    },
+                    {
+                      "text": "Item 75\n"
+                    },
+                    {
+                      "text": "Item 76\n"
+                    },
+                    {
+                      "text": "Item 77\n"
+                    },
+                    {
+                      "text": "Item 78\n"
+                    },
+                    {
+                      "text": "Item 79\n"
+                    },
+                    {
+                      "text": "Item 80\n"
+                    },
+                    {
+                      "text": "Item 81\n"
+                    },
+                    {
+                      "text": "Item 82\n"
+                    },
+                    {
+                      "text": "Item 83\n"
+                    },
+                    {
+                      "text": "Item 84\n"
+                    },
+                    {
+                      "text": "Item 85\n"
+                    },
+                    {
+                      "text": "Item 86\n"
+                    },
+                    {
+                      "text": "Item 87\n"
+                    },
+                    {
+                      "text": "Item 88\n"
+                    },
+                    {
+                      "text": "Item 89\n"
+                    },
+                    {
+                      "text": "Item 90\n"
+                    },
+                    {
+                      "text": "Item 91\n"
+                    },
+                    {
+                      "text": "Item 92\n"
+                    },
+                    {
+                      "text": "Item 93\n"
+                    },
+                    {
+                      "text": "Item 94\n"
+                    },
+                    {
+                      "text": "Item 95\n"
+                    },
+                    {
+                      "text": "Item 96\n"
+                    },
+                    {
+                      "text": "Item 97\n"
+                    },
+                    {
+                      "text": "Item 98\n"
+                    },
+                    {
+                      "text": "Item 99\n"
+                    },
+                    {
+                      "text": "Item 100\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-01T09:30:28.297Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5cef92f5a83fbbad0a1e-986ef6108e6476b5ee87",
+          "file": "dropdown.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "Dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 18819,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m100\u001b[39m\n"
+                    },
+                    {
+                      "text": "Item 1\n"
+                    },
+                    {
+                      "text": "Item 2\n"
+                    },
+                    {
+                      "text": "Item 3\n"
+                    },
+                    {
+                      "text": "Item 4\n"
+                    },
+                    {
+                      "text": "Item 5\n"
+                    },
+                    {
+                      "text": "Item 6\n"
+                    },
+                    {
+                      "text": "Item 7\n"
+                    },
+                    {
+                      "text": "Item 8\n"
+                    },
+                    {
+                      "text": "Item 9\n"
+                    },
+                    {
+                      "text": "Item 10\n"
+                    },
+                    {
+                      "text": "Item 11\n"
+                    },
+                    {
+                      "text": "Item 12\n"
+                    },
+                    {
+                      "text": "Item 13\n"
+                    },
+                    {
+                      "text": "Item 14\n"
+                    },
+                    {
+                      "text": "Item 15\n"
+                    },
+                    {
+                      "text": "Item 16\n"
+                    },
+                    {
+                      "text": "Item 17\n"
+                    },
+                    {
+                      "text": "Item 18\n"
+                    },
+                    {
+                      "text": "Item 19\n"
+                    },
+                    {
+                      "text": "Item 20\n"
+                    },
+                    {
+                      "text": "Item 21\n"
+                    },
+                    {
+                      "text": "Item 22\n"
+                    },
+                    {
+                      "text": "Item 23\n"
+                    },
+                    {
+                      "text": "Item 24\n"
+                    },
+                    {
+                      "text": "Item 25\n"
+                    },
+                    {
+                      "text": "Item 26\n"
+                    },
+                    {
+                      "text": "Item 27\n"
+                    },
+                    {
+                      "text": "Item 28\n"
+                    },
+                    {
+                      "text": "Item 29\n"
+                    },
+                    {
+                      "text": "Item 30\n"
+                    },
+                    {
+                      "text": "Item 31\n"
+                    },
+                    {
+                      "text": "Item 32\n"
+                    },
+                    {
+                      "text": "Item 33\n"
+                    },
+                    {
+                      "text": "Item 34\n"
+                    },
+                    {
+                      "text": "Item 35\n"
+                    },
+                    {
+                      "text": "Item 36\n"
+                    },
+                    {
+                      "text": "Item 37\n"
+                    },
+                    {
+                      "text": "Item 38\n"
+                    },
+                    {
+                      "text": "Item 39\n"
+                    },
+                    {
+                      "text": "Item 40\n"
+                    },
+                    {
+                      "text": "Item 41\n"
+                    },
+                    {
+                      "text": "Item 42\n"
+                    },
+                    {
+                      "text": "Item 43\n"
+                    },
+                    {
+                      "text": "Item 44\n"
+                    },
+                    {
+                      "text": "Item 45\n"
+                    },
+                    {
+                      "text": "Item 46\n"
+                    },
+                    {
+                      "text": "Item 47\n"
+                    },
+                    {
+                      "text": "Item 48\n"
+                    },
+                    {
+                      "text": "Item 49\n"
+                    },
+                    {
+                      "text": "Item 50\n"
+                    },
+                    {
+                      "text": "Item 51\n"
+                    },
+                    {
+                      "text": "Item 52\n"
+                    },
+                    {
+                      "text": "Item 53\n"
+                    },
+                    {
+                      "text": "Item 54\n"
+                    },
+                    {
+                      "text": "Item 55\n"
+                    },
+                    {
+                      "text": "Item 56\n"
+                    },
+                    {
+                      "text": "Item 57\n"
+                    },
+                    {
+                      "text": "Item 58\n"
+                    },
+                    {
+                      "text": "Item 59\n"
+                    },
+                    {
+                      "text": "Item 60\n"
+                    },
+                    {
+                      "text": "Item 61\n"
+                    },
+                    {
+                      "text": "Item 62\n"
+                    },
+                    {
+                      "text": "Item 63\n"
+                    },
+                    {
+                      "text": "Item 64\n"
+                    },
+                    {
+                      "text": "Item 65\n"
+                    },
+                    {
+                      "text": "Item 66\n"
+                    },
+                    {
+                      "text": "Item 67\n"
+                    },
+                    {
+                      "text": "Item 68\n"
+                    },
+                    {
+                      "text": "Item 69\n"
+                    },
+                    {
+                      "text": "Item 70\n"
+                    },
+                    {
+                      "text": "Item 71\n"
+                    },
+                    {
+                      "text": "Item 72\n"
+                    },
+                    {
+                      "text": "Item 73\n"
+                    },
+                    {
+                      "text": "Item 74\n"
+                    },
+                    {
+                      "text": "Item 75\n"
+                    },
+                    {
+                      "text": "Item 76\n"
+                    },
+                    {
+                      "text": "Item 77\n"
+                    },
+                    {
+                      "text": "Item 78\n"
+                    },
+                    {
+                      "text": "Item 79\n"
+                    },
+                    {
+                      "text": "Item 80\n"
+                    },
+                    {
+                      "text": "Item 81\n"
+                    },
+                    {
+                      "text": "Item 82\n"
+                    },
+                    {
+                      "text": "Item 83\n"
+                    },
+                    {
+                      "text": "Item 84\n"
+                    },
+                    {
+                      "text": "Item 85\n"
+                    },
+                    {
+                      "text": "Item 86\n"
+                    },
+                    {
+                      "text": "Item 87\n"
+                    },
+                    {
+                      "text": "Item 88\n"
+                    },
+                    {
+                      "text": "Item 89\n"
+                    },
+                    {
+                      "text": "Item 90\n"
+                    },
+                    {
+                      "text": "Item 91\n"
+                    },
+                    {
+                      "text": "Item 92\n"
+                    },
+                    {
+                      "text": "Item 93\n"
+                    },
+                    {
+                      "text": "Item 94\n"
+                    },
+                    {
+                      "text": "Item 95\n"
+                    },
+                    {
+                      "text": "Item 96\n"
+                    },
+                    {
+                      "text": "Item 97\n"
+                    },
+                    {
+                      "text": "Item 98\n"
+                    },
+                    {
+                      "text": "Item 99\n"
+                    },
+                    {
+                      "text": "Item 100\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-01T09:30:28.299Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5cef92f5a83fbbad0a1e-8cf39af0bcbbb668e260",
+          "file": "dropdown.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "Dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 5096,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m100\u001b[39m\n"
+                    },
+                    {
+                      "text": "Item 1\n"
+                    },
+                    {
+                      "text": "Item 2\n"
+                    },
+                    {
+                      "text": "Item 3\n"
+                    },
+                    {
+                      "text": "Item 4\n"
+                    },
+                    {
+                      "text": "Item 5\n"
+                    },
+                    {
+                      "text": "Item 6\n"
+                    },
+                    {
+                      "text": "Item 7\n"
+                    },
+                    {
+                      "text": "Item 8\n"
+                    },
+                    {
+                      "text": "Item 9\n"
+                    },
+                    {
+                      "text": "Item 10\n"
+                    },
+                    {
+                      "text": "Item 11\n"
+                    },
+                    {
+                      "text": "Item 12\n"
+                    },
+                    {
+                      "text": "Item 13\n"
+                    },
+                    {
+                      "text": "Item 14\n"
+                    },
+                    {
+                      "text": "Item 15\n"
+                    },
+                    {
+                      "text": "Item 16\n"
+                    },
+                    {
+                      "text": "Item 17\n"
+                    },
+                    {
+                      "text": "Item 18\n"
+                    },
+                    {
+                      "text": "Item 19\n"
+                    },
+                    {
+                      "text": "Item 20\n"
+                    },
+                    {
+                      "text": "Item 21\n"
+                    },
+                    {
+                      "text": "Item 22\n"
+                    },
+                    {
+                      "text": "Item 23\n"
+                    },
+                    {
+                      "text": "Item 24\n"
+                    },
+                    {
+                      "text": "Item 25\n"
+                    },
+                    {
+                      "text": "Item 26\n"
+                    },
+                    {
+                      "text": "Item 27\n"
+                    },
+                    {
+                      "text": "Item 28\n"
+                    },
+                    {
+                      "text": "Item 29\n"
+                    },
+                    {
+                      "text": "Item 30\n"
+                    },
+                    {
+                      "text": "Item 31\n"
+                    },
+                    {
+                      "text": "Item 32\n"
+                    },
+                    {
+                      "text": "Item 33\n"
+                    },
+                    {
+                      "text": "Item 34\n"
+                    },
+                    {
+                      "text": "Item 35\n"
+                    },
+                    {
+                      "text": "Item 36\n"
+                    },
+                    {
+                      "text": "Item 37\n"
+                    },
+                    {
+                      "text": "Item 38\n"
+                    },
+                    {
+                      "text": "Item 39\n"
+                    },
+                    {
+                      "text": "Item 40\n"
+                    },
+                    {
+                      "text": "Item 41\n"
+                    },
+                    {
+                      "text": "Item 42\n"
+                    },
+                    {
+                      "text": "Item 43\n"
+                    },
+                    {
+                      "text": "Item 44\n"
+                    },
+                    {
+                      "text": "Item 45\n"
+                    },
+                    {
+                      "text": "Item 46\n"
+                    },
+                    {
+                      "text": "Item 47\n"
+                    },
+                    {
+                      "text": "Item 48\n"
+                    },
+                    {
+                      "text": "Item 49\n"
+                    },
+                    {
+                      "text": "Item 50\n"
+                    },
+                    {
+                      "text": "Item 51\n"
+                    },
+                    {
+                      "text": "Item 52\n"
+                    },
+                    {
+                      "text": "Item 53\n"
+                    },
+                    {
+                      "text": "Item 54\n"
+                    },
+                    {
+                      "text": "Item 55\n"
+                    },
+                    {
+                      "text": "Item 56\n"
+                    },
+                    {
+                      "text": "Item 57\n"
+                    },
+                    {
+                      "text": "Item 58\n"
+                    },
+                    {
+                      "text": "Item 59\n"
+                    },
+                    {
+                      "text": "Item 60\n"
+                    },
+                    {
+                      "text": "Item 61\n"
+                    },
+                    {
+                      "text": "Item 62\n"
+                    },
+                    {
+                      "text": "Item 63\n"
+                    },
+                    {
+                      "text": "Item 64\n"
+                    },
+                    {
+                      "text": "Item 65\n"
+                    },
+                    {
+                      "text": "Item 66\n"
+                    },
+                    {
+                      "text": "Item 67\n"
+                    },
+                    {
+                      "text": "Item 68\n"
+                    },
+                    {
+                      "text": "Item 69\n"
+                    },
+                    {
+                      "text": "Item 70\n"
+                    },
+                    {
+                      "text": "Item 71\n"
+                    },
+                    {
+                      "text": "Item 72\n"
+                    },
+                    {
+                      "text": "Item 73\n"
+                    },
+                    {
+                      "text": "Item 74\n"
+                    },
+                    {
+                      "text": "Item 75\n"
+                    },
+                    {
+                      "text": "Item 76\n"
+                    },
+                    {
+                      "text": "Item 77\n"
+                    },
+                    {
+                      "text": "Item 78\n"
+                    },
+                    {
+                      "text": "Item 79\n"
+                    },
+                    {
+                      "text": "Item 80\n"
+                    },
+                    {
+                      "text": "Item 81\n"
+                    },
+                    {
+                      "text": "Item 82\n"
+                    },
+                    {
+                      "text": "Item 83\n"
+                    },
+                    {
+                      "text": "Item 84\n"
+                    },
+                    {
+                      "text": "Item 85\n"
+                    },
+                    {
+                      "text": "Item 86\n"
+                    },
+                    {
+                      "text": "Item 87\n"
+                    },
+                    {
+                      "text": "Item 88\n"
+                    },
+                    {
+                      "text": "Item 89\n"
+                    },
+                    {
+                      "text": "Item 90\n"
+                    },
+                    {
+                      "text": "Item 91\n"
+                    },
+                    {
+                      "text": "Item 92\n"
+                    },
+                    {
+                      "text": "Item 93\n"
+                    },
+                    {
+                      "text": "Item 94\n"
+                    },
+                    {
+                      "text": "Item 95\n"
+                    },
+                    {
+                      "text": "Item 96\n"
+                    },
+                    {
+                      "text": "Item 97\n"
+                    },
+                    {
+                      "text": "Item 98\n"
+                    },
+                    {
+                      "text": "Item 99\n"
+                    },
+                    {
+                      "text": "Item 100\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-01T09:30:28.297Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5cef92f5a83fbbad0a1e-0beb870f1e648e2a73b2",
+          "file": "dropdown.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-05-01T09:30:27.947Z",
+    "duration": 20122.296000000002,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
