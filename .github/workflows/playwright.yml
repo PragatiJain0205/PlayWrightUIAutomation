@@ -4,7 +4,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-jobs: "0 0 * * *"
+jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
@@ -25,3 +25,6 @@ jobs: "0 0 * * *"
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+
+
+
